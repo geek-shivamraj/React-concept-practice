@@ -27,11 +27,28 @@ import PrincipleAvoidContra2 from "./assignments/event-handling/PrincipleAvoidCo
 import PrincipleAvoidDuplicate from "./assignments/event-handling/PrincipleAvoidDuplicate";
 import PrincipleAvoidRedundant from "./assignments/event-handling/PrincipleAvoidRedundant";
 import PrincipleAvoidDuplicate1 from "./assignments/event-handling/PrincipleAvoidDuplicate1";
+import Accordion from "./assignments/lifting-state-up/LiftingStateupDemo";
+import AccordionContd from "./assignments/lifting-state-up/LiftingStateupContd";
+import SyncedInputs from "./assignments/lifting-state-up/SyncedInputs";
+import FilterableList from "./assignments/lifting-state-up/FilterableList";
+import Demo1 from "./assignments/preserving-resetting-state/Demo1";
+import PreservingStateDemo2 from "./assignments/preserving-resetting-state/PreservingStateDemo2";
+import PreservingStateDemo3 from "./assignments/preserving-resetting-state/PreservingStateDemo3";
 
 function App() {
   return (
     <div>
       <ExerciseComponent />
+      <PreservingStateDemo3 />
+      <br />
+      <PreservingStateDemo2/>
+      <br />
+      <Demo1 />
+      <br/>
+      <FilterableList />
+      <SyncedInputs />
+      <AccordionContd/>
+      <Accordion />
       <PrincipleAvoidDuplicate1 />
       <PrincipleAvoidDuplicate />
       <PrincipleAvoidRedundant />
